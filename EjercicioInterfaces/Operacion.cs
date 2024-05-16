@@ -67,9 +67,9 @@ namespace EjercicioInterfaces
         }
 
         /// <summary>
-        /// llama a los metodos 
+        /// Muestra el resultado de las operaciones
         /// </summary>
-        /// <returns>Imprime calculo de metodos</returns>
+        /// <returns>Captura de resultado de operaciones</returns>
         public void Imprimir()
         {
             Console.WriteLine($"Area del cuadrado: {AreaCuardado(N1, N2)}");
